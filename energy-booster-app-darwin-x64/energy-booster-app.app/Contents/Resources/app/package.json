@@ -1,0 +1,20 @@
+{
+  "name": "energy-booster-app",
+  "version": "0.1.0",
+  "description": "A simple tabata timer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "keywords": [
+        "tabata",
+        "timer"
+    ],
+  "author": "Aina Rønningen",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "^8.7.0"
+  },
+  "devDependencies": {}
+}

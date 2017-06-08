@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="616px" height="616px" viewBox="0 0 616 616" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>bcg-shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M446.674275,44.285066 C401.824566,16.2215113 348.806651,-1.13686838e-13 292,-1.13686838e-13 C130.732853,-1.13686838e-13 1.13686838e-13,130.732853 1.13686838e-13,292 C1.13686838e-13,453.267147 130.732853,584 292,584 C453.267147,584 584,453.267147 584,292 C584,247.78185 574.171345,205.859305 556.579538,168.297867 L584,46.5 L446.67428,44.285069 Z" id="path-1"></path>
+        <filter x="-4.2%" y="-4.0%" width="108.4%" height="108.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.383529974   0 0 0 0 0.374223198   0 0 0 0 0.374223198  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="292.5" cy="292.5" r="262.5"></circle>
+        <filter x="-7.6%" y="-6.7%" width="115.2%" height="115.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.580392157   0 0 0 0 0.552941176   0 0 0 0 0.552941176  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-11-NEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="section-1-copy-6" transform="translate(-192.000000, -93.000000)">
+            <g id="bcg-shape" transform="translate(208.000000, 108.000000)">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

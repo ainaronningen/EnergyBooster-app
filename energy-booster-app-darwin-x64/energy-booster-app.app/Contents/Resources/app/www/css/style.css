@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+body {
+    background-color: #EFEEEA;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Lato, Arial, monospace;
+}
+
+
+/*--------------------------------Start-------------------------------*/
+
+.wrapper {
+    /*    background-color: red;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#section1 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.header {
+    width: 300px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+    text-shadow: 0px 1px 8px #AFAEA9;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    position: relative;
+    top: 25px;
+    left: 150px;
+}
+
+.bcg-shape {
+    width: 600px;
+}
+
+.timer {
+    position: absolute;
+    top: 155px;
+    z-index: 1;
+}
+
+
+/*--------------------------------Duration-------------------------------*/
+
+.duration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-timer {
+    position: relative;
+    top: 33px;
+    left: -160px;
+}
+
+p {
+    font-weight: 600;
+    color: #625F5F;
+    font-size: 75px;
+    letter-spacing: -1px;
+    z-index: 1;
+    position: relative;
+    top: 28px;
+    right: -315px;
+}
+
+
+/*--------------------------------Buttons-------------------------------*/
+
+.start-button,
+.stop-button {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: 130px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.start-button {
+    color: #89E16B;
+    position: absolute;
+    top: 180px;
+    right: -10px;
+}
+
+.start-button:hover {
+    color: #C7F803;
+}
+
+.stop-button {
+    color: #FD8387;
+    position: relative;
+    top: -174px;
+    left: 401px;
+    z-index:
+}
+
+.stop-button:hover {
+    color: red;
+}
+
+.download img {
+    width: 200px;
+    position: relative;
+    top: 5px;
+}
+
+.download img:hover {
+    width: 210px;
+}
